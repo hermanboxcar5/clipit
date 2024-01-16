@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Clipit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <h1> Welcome to Clipit</h1>
+  <p>ClipIt is a program that extracts high-quality videos from YouTube, with a cookie-free and distraction-free environment. Generate a Clipit URL:</p>
+  <div style="text-align: center; margin-top: 50px;">
+      <input type="text" id="url" style="padding: 8px; width: 500px; font-size: 18px; border: 1px solid #000; border-radius: 5px;" placeholder="Enter YouTube video URL">
+      <button onclick="generate()" style="padding: 12px 20px; font-size: 14px; background-color: #4CAF50; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Generate</button>
+  </div>
+  <input type="text" id="output" style="padding: 8px; width: 500px; font-size: 18px; border: 1px solid #000; border-radius: 5px; display:none;" readonly>
+  <script src='script.js'></script>
+</body>
+
+</html>
